@@ -30,11 +30,11 @@ public class SkillTree : MonoBehaviour
         SkillLevels = new int[6];
         SkillCaps = new[] { 1, 1, 1, 2, 3, 3 };
 
-        SkillNames = new[] { "RUN!", "Dashing", "Faster!", "Sprint", "Speedy", "No limits", };
+        SkillNames = new[] { "RUN!", "Hops", "Faster!", "Sprint", "Speedy", "No limits", };
         SkillDescriptions = new[]
         {
             "Increase speed.",
-            "press [LMB] to dash",
+            "Increase jump height",
             "Increases speed more.",
             "Press [LeftShift] to sprint",
             "Sprint faster",

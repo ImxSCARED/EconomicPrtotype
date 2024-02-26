@@ -7,7 +7,7 @@ public enum SceneIndex
     Level1 = 0,
     SkilltreeUpgrades = 1,
     Level2= 2,
-    Level3 = 3,
+    MainMenu = 3,
     
 
 }
