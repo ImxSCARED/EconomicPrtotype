@@ -555,7 +555,7 @@ PrefabInstance:
     - target: {fileID: 5375172188000647806, guid: 206e3e3eb32bb7241907a133a5b16e12,
         type: 3}
       propertyPath: m_Name
-      value: OrangeCube
+      value: OrangeCube Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5375172188000647807, guid: 206e3e3eb32bb7241907a133a5b16e12,
         type: 3}

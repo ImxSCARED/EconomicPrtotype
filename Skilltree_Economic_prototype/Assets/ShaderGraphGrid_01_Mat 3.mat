@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ShaderGraphGrid_01_Mat
+  m_Name: ShaderGraphGrid_01_Mat 3
   m_Shader: {fileID: -6465566751694194690, guid: b8d7679189d4a5940af46004f3870920,
     type: 3}
   m_ValidKeywords: []
@@ -90,14 +90,14 @@ Material:
     m_Floats:
     - Boolean_35A71344: 0
     - Boolean_7A5F3F39: 1
-    - Boolean_7AC8D832: 1
+    - Boolean_7AC8D832: 0
     - Vector1_3402D67A: 1
     - Vector1_3655428E: 1.34
     - Vector1_5B05FA1F: 0
     - Vector1_6B67A8FF: -20
     - Vector1_7810F718: 0.05
     - Vector1_B6126E6E: 0.7
-    - Vector1_CA7D5F3: 13984
+    - Vector1_CA7D5F3: 3343
     - Vector1_D5FBE925: 0.3
     - Vector1_F2A922B4: 1.73
     - Vector1_F5FD9210: 33.9
@@ -121,7 +121,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_2B671050: {r: 0, g: 0, b: 0, a: 0}
-    - Color_30A0CA2F: {r: 0.010988479, g: 0.0010679938, b: 0.0754717, a: 1}
+    - Color_30A0CA2F: {r: 0.0071596713, g: 0.23584908, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

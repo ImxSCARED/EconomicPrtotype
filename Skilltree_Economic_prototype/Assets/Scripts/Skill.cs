@@ -3,14 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using static SkillTree;
-using Unity.VisualScripting;
 using UnityEngine.UI;
+using System;
+
+//[Serializable]
+//public class SkillSpec
+//{
+//    public int level;
+//    public int cap;
+//    public string name;
+//    public string description;
+//}
 
 public class Skill : MonoBehaviour
 {
     public int id;
     public TMP_Text TitleText;
     public TMP_Text DescriptionText;
+
 
     public int[] ConnectedSkills;
 
@@ -32,6 +42,15 @@ public class Skill : MonoBehaviour
 
     public void Buy()
     {
+
+        //Any extra info you need about the skill the user has just bought can be found with
+        //skillTree.skillSpecs[id].description
+
+
+        //The value of 'id' will be an index to what skill just got bought, you can use a bunch of if statements
+        //to implement the effect of buying skills if you like.
+
+
         if (skillTree.SkillPoint < 1 || skillTree.SkillLevels[id] >= skillTree.SkillCaps[id]) return;  
         skillTree.SkillPoint -= 1;
         skillTree.SkillLevels[id]++;

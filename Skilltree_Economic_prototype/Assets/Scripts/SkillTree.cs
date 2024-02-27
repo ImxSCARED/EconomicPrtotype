@@ -1,7 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
+
 
 public class SkillTree : MonoBehaviour
 {
@@ -12,7 +15,7 @@ public class SkillTree : MonoBehaviour
     public int[] SkillCaps;
     public string[] SkillNames;
     public string[] SkillDescriptions;
- 
+
 
     public List<Skill> skillList;
     public GameObject SkillHolder;
@@ -44,7 +47,10 @@ public class SkillTree : MonoBehaviour
         
         foreach (var connector in ConnectorHolder.GetComponentsInChildren<RectTransform>()) ConnectorList.Add(connector.gameObject);
 
-        for (var i = 0; i < skillList.Count; i++) skillList[i].id = i;
+        for (var i = 0; i < skillList.Count; i++)
+        {
+            skillList[i].id = i;
+        }
  
         skillList[0].ConnectedSkills = new[] { 1, 2, 3};   //what skills are connected  skill 0 is connected to 1,2 and 3
         skillList[2].ConnectedSkills = new[] { 4, 5};   //skill 2 is connected to 4 and 5
